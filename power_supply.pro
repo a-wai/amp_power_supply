@@ -1,4 +1,4 @@
-update=mer. 24 août 2016 23:03:38 CEST
+update=mer. 09 nov. 2016 14:51:21 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -53,8 +53,8 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
