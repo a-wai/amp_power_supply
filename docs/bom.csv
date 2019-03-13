@@ -1,0 +1,28 @@
+Fixed bias
+
+Component,Description,References,Value,Quantity Per PCB,MFR,MPN,SPR,SPN
+1,Polarized capacitor,C3,10000µ/16V,1,Epcos,B41303J4109M,RS,208-7122
+2,Polarized capacitor,C1-C2,10µ/160V,2,RS Pro,,RS,707-6401
+3,Diode,D1-D9,1N4007,9,,,Tube Town,1n4007
+5,Turret Type 32,P1-P13,,13,,,Tube Town,tur-tt32-25
+8,Resistor,R1,22K,1,Xicon,273-22K-RC,Tube Town,rxi-22k
+6,Resistor,R2,100K,1,Xicon,273-100K-RC,Tube Town,rxi-100k
+7,Resistor,R3-R4,100R/2W,2,Vitrohm,PO593-0-5-100,Tube Town,rmo-100-2
+9,Potentiometer,RV1,10K,1,Piher,PT15,Tube Town,rpo-10k
+
+Cathode bias
+
+Component,Description,References,Value,Quantity Per PCB,MFR,MPN,SPR,SPN
+1,Polarized capacitor,C3,10000µ/16V,1,Epcos,B41303J4109M,RS,208-7122
+2,Polarized capacitor,Ck,220µ/63V,1,,,Tube Town,cax-220-63
+3,Diode,D1-D8,1N4007,8,,,Tube Town,1n4007
+4,Turret Type 32,P1-P13 +3*,,16,,,Tube Town,tur-tt32-25
+5,Resistor,R3-R4,100R/2W,2,Vitrohm,PO593-0-5-100,Tube Town,rmo-100-2
+6,Resistor,Rk,*,1,,,,
+
+Notes:,C3 P8 P13 & D5-D8 are optional (use only if you need a 6V DC relays PSU)
+
+,For cathode bias operation drill C1 & C2 '+' pads to 2.8mm and place turrets there
+,Place Rk (value dependent on your amp) between C1 '+' pad & 'BIAS' turret
+,Place turret on 'Ck' pad
+,Place Ck between C2 '+' pad & 'Ck' turret
