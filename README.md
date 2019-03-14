@@ -1,4 +1,4 @@
-# Boost PSU for tube preamplifiers
+# Amplifier power supply
 
 ![](https://github.com/a-wai/amp_power_supply/blob/master/power_supply.jpg)
 
